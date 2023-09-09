@@ -21,13 +21,3 @@
     },
   };
   </script>
-
-<style scoped>
-.v-application__wrap {
-  display: none;
-}
-.margin-top-70px {
-  margin-top: 70px;
-  margin-left: 20px;
-}
-</style>
