@@ -3,22 +3,8 @@
 
 <template>
   <main>
-  <div class="display-flex justify-content-center aling-items-center">
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
-    <p class="font-family height-16px">モデルビュー</p><br>
+  <div>
+    <p>モデルビュー</p><br>
   </div>
   </main>
 </template>
-
- <style src="/src/assets/css/main.css"></style>

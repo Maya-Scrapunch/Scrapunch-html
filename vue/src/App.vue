@@ -3,11 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 </script>
 
 <template>
-  <div id="app">
     <custom-toolbar></custom-toolbar>
-    <router-view></router-view>
-
-  </div>
 </template>
  
 <script lang="ts">
@@ -19,3 +15,4 @@ export default {
   },
 };
 </script>
+
