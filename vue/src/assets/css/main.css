@@ -1,7 +1,11 @@
 :root {
   --font-family: 'Noto Sans JP';
   --red: red;
+  --cream:#fffdd0;
 }
+
+
+
 /* font */
 .font-family {
   font: var(--font-family)
@@ -12,9 +16,17 @@
   height: 16px
 }
 
+/* width */
+.width-100pct {
+  width: 100%
+}
+
 /* color */
 .color-red {
   color: var(--red);
+}
+.color-background-cream {
+  background-color: var(--cream);
 }
 
 /* display */
