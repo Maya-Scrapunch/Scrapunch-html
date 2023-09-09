@@ -31,5 +31,3 @@ export default defineComponent({
   }
 });
 </script>
-
-<style src="/src/assets/css/main.css"></style>
