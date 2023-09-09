@@ -9,4 +9,4 @@
   </main>
 </template>
 
-<style src="/src/assets/css/main.css"></style>
+ <style src="/src/assets/css/main.css"></style>
