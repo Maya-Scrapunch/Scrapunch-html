@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AccessView from '../views/AccessView.vue'
 import TourismView from '../views/TourismView.vue'
 import ModelView from '../views/ModelView.vue'
+import Maruichi from '../views/Maruichi.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
       name: 'models',
       component: ModelView
     },
+    {
+          path: '/maruichi',
+          name: 'maruichi',
+          component: Maruichi
+        }
   ]
 })
 
