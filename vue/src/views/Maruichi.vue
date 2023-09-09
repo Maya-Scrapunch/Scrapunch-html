@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <dev class="absolute-left-top">
   <main>
   <v-container>
       <v-card
@@ -40,4 +41,13 @@
         </v-card>
     </v-container>
   </main>
+  </dev>
 </template>
+
+<style scoped>
+.absolute-left-top {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+</style>

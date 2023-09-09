@@ -8,9 +8,9 @@
             </RouterLink>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <RouterLink to="/access" class="link">アクセス</RouterLink>
-        <RouterLink to="/tourism" class="link">観光</RouterLink>
-        <RouterLink to="/models" class="link">モデルケース</RouterLink>
+        <v-btn RouterLink to="/access" class="link">アクセス</v-btn>
+        <v-btn RouterLink to="/tourism" class="link">観光</v-btn>
+        <v-btn RouterLink to="/models" class="link">モデルコース</v-btn>
       </v-app-bar>
     </header>
   </v-app>
@@ -33,7 +33,7 @@ export default defineComponent({
 
 <style scoped>
 .link {
-  background-color: #dcdcdc; /* ホバー時の色 */
+  background-color: #CCFFFF; /* ホバー時の色 */
   color: #555; /* ホバー時のテキストカラー */
   padding: 5px 10px;
   margin-right: 10px;
@@ -41,7 +41,7 @@ export default defineComponent({
 }
 
 .link:hover {
-  background-color: #f5deb3;
+  background-color: #CCFFFF;
   color: #333;
 }
 </style>
