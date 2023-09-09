@@ -8,7 +8,6 @@
             </div>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <RouterLink to="/" class="link">ホーム</RouterLink>
         <RouterLink to="/access" class="link">アクセス</RouterLink>
         <RouterLink to="/tourism" class="link">観光</RouterLink>
         <RouterLink to="/models" class="link">モデルケース</RouterLink>
