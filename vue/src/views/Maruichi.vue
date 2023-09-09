@@ -3,8 +3,8 @@
 
 <template>
   <main>
-    <div class="display-flex justify-content-center aling-items-center">
-        <p class="font-family height-100px">丸一</p>
+    <div>
+        <p>丸一</p>
     </div>
     <div>
         <v-container>
@@ -23,5 +23,3 @@
     </div>
   </main>
 </template>
-
- <style src="/src/assets/css/main.css"></style>

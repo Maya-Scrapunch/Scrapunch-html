@@ -3,9 +3,9 @@
     <header>
       <v-app-bar app dark>
         <v-toolbar-title>
-            <div>
+            <RouterLink to="/">
                <img src='../assets/img/icon.png' alt="外部の画像" width="130" height="60" @click="goToHomePage">
-            </div>
+            </RouterLink>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <RouterLink to="/access" class="link">アクセス</RouterLink>
@@ -31,4 +31,17 @@ export default defineComponent({
 });
 </script>
 
-<style src="/src/assets/css/main.css"></style>
+<style scoped>
+.link {
+  background-color: #dcdcdc; /* ホバー時の色 */
+  color: #555; /* ホバー時のテキストカラー */
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #f5deb3;
+  color: #333;
+}
+</style>

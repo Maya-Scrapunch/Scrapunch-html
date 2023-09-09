@@ -1,21 +1,23 @@
-<script setup lang="ts">
-import { createRouter, createWebHistory } from 'vue-router'
-</script>
+  <script setup lang="ts">
+  import { createRouter, createWebHistory } from 'vue-router'
+  </script>
 
-<template>
-  <div id="app">
-    <custom-toolbar></custom-toolbar>
-    <router-view></router-view>
+  <template>
+    <div id="app">
+      <custom-toolbar></custom-toolbar>
+      <div>
+        <router-view />
+      </div>
+    </div>
+  </template>
+  
+  <script lang="ts">
+  import CustomToolbar from './views/Headbar.vue';
 
-  </div>
-</template>
- 
-<script lang="ts">
-import CustomToolbar from './views/Headbar.vue';
+  export default {
+    components: {
+      CustomToolbar,
+    },
+  };
+  </script>
 
-export default {
-  components: {
-    CustomToolbar,
-  },
-};
-</script>
