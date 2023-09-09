@@ -1,0 +1,33 @@
+:root {
+  --font-family: 'Noto Sans JP';
+  --red: red;
+}
+/* font */
+.font-family {
+  font: var(--font-family)
+}
+
+/* height */
+.height-16px {
+  height: 16px
+}
+
+/* color */
+.color-red {
+  color: var(--red);
+}
+
+/* display */
+.display-flex {
+  display: flex;
+}
+
+/* justify */
+.justify-content-center {
+  justify-self: center;
+}
+
+/* align */
+.align-items-center {
+  align-items: center;
+}
