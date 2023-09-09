@@ -1,26 +1,20 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 </script>
 
 <template>
-  <v-app>
-    <header>
-      <v-app-bar
-        app
-        dark
-      >
-        <!-- ここまで追加 -->
-        <v-toolbar-title>MyPortfolioSite</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-btn text @click="navigateToHome">Home</v-btn>
-        <v-btn text @click="navigateToPage1">Page 1</v-btn>
-        <v-btn text @click="navigateToPage2">Page 2</v-btn>
-      </v-app-bar>
-    </header>
-  </v-app>
+  <div id="app">
+    <custom-toolbar></custom-toolbar>
+    <router-view></router-view>
+  </div>
 </template>
  
 <script lang="ts">
+import CustomToolbar from './views/Headbar.vue';
 
+export default {
+  components: {
+    CustomToolbar,
+  },
+};
 </script>

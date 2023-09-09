@@ -4,6 +4,21 @@
   --cream:#fffdd0;
 }
 
+.link {
+  background-color: #dcdcdc; /* ホバー時の色 */
+  color: #555; /* ホバー時のテキストカラー */
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #f5deb3;
+  color: #333;
+
+}
+
+
 
 
 /* font */
