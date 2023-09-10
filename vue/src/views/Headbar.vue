@@ -9,8 +9,38 @@
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn RouterLink to="/access" class="link">アクセス</v-btn>
-        <v-btn RouterLink to="/tourism" class="link">観光</v-btn>
+        <v-menu
+      open-on-hover
+    >
+      <template v-slot:activator="{ props }">
+        <v-btn
+          class="link"
+          v-bind="props"
+        >
+          観光
+        </v-btn>
+      </template>
+
+      <v-list>
+        <v-list-item>
+          <RouterLink to="/tourism">食事</RouterLink>
+        </v-list-item>
+        <v-list-item>
+          <RouterLink to="/">アクティビティー</RouterLink>
+        </v-list-item>
+        <v-list-item>
+          <RouterLink to="/">自然</RouterLink>
+        </v-list-item>
+        <v-list-item>
+          <RouterLink to="/">文化体験</RouterLink>
+        </v-list-item>
+        <v-list-item>
+          <RouterLink to="/">宿泊</RouterLink>
+        </v-list-item>
+      </v-list>
+    </v-menu>
         <v-btn RouterLink to="/models" class="link">モデルコース</v-btn>
+        
       </v-app-bar>
     </header>
   </v-app>
@@ -21,11 +51,22 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+  data() {
+    return {
+      dialogOpen: false,
+    };
+  },
   methods: {
     // ホームページに遷移するメソッド
     goToHomePage() {
       // Vue Routerを使用して指定のURLに遷移
       this.$router.push('/');
+    },
+    open(){
+      this.dialogOpen=true;
+    },
+    close(){
+      this.dialogOpen=false;
     }
   }
 });
