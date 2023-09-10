@@ -20,7 +20,7 @@ import InfoCard from "@/components/InfoCard.vue"
               >
         
               <v-card-item>
-                <v-card-title>丸一</v-card-title>
+                <v-card-title>MARU壱</v-card-title>
           
               </v-card-item>
           
@@ -47,7 +47,7 @@ import InfoCard from "@/components/InfoCard.vue"
           
                 <div>
                   <v-icon start color="orange" icon="mdi-map-marker"></v-icon> 
-                  ここら辺      
+                  福島県郡山市湖南町中野向町2779      
                 </div>
                 <div>
                   <v-icon start  color="green" icon="mdi-check-bold"></v-icon>
@@ -68,11 +68,11 @@ import InfoCard from "@/components/InfoCard.vue"
               <img
               height="300" 
               width="380"
-              src='../assets/img/maruichi/outside.jpg'
+              src='../assets/img/wakanoya/outside.jpg'
               >
         
               <v-card-item>
-                <v-card-title>丸一</v-card-title>
+                <v-card-title>わかの屋</v-card-title>
           
               </v-card-item>
           
@@ -80,21 +80,14 @@ import InfoCard from "@/components/InfoCard.vue"
                 <div class="pr-4">
                   <v-chip
                     class="mr-2 mb-2"
-                    color="pink"
+                    color="green"
                     label
                     text-color="white"
                   >
                   <v-icon start icon="mdi-label"></v-icon>
-                  和食
+                  洋食
                   </v-chip>
-                  <v-chip
-                    class="mr-2 mb-2"
-                    color="#9966ff"
-                    label 
-                  >
-                  <v-icon start icon="mdi-label"></v-icon>
-                  体験
-                  </v-chip>
+                  
                 </div>
           
                 <div>
@@ -120,11 +113,11 @@ import InfoCard from "@/components/InfoCard.vue"
               <img
               height="300" 
               width="380"
-              src='../assets/img/maruichi/outside.jpg'
+              src='../assets/img/otaya/outside.jpg'
               >
         
               <v-card-item>
-                <v-card-title>丸一</v-card-title>
+                <v-card-title>太田屋</v-card-title>
           
               </v-card-item>
           

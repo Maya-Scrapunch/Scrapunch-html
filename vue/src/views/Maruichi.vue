@@ -61,7 +61,7 @@
 .absolute-left-top {
   position: absolute;
   top: 70px;
-  left: 0;
+  left: 250px;
 }
 .rounded-button {
   border-radius: 25px; /* 丸い角の半径を設定 */
