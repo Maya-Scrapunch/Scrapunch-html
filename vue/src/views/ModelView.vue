@@ -4,7 +4,7 @@
 <template>
   <main>
   <div class="absolute-left-top">
-    <p>モデルビュー</p><br>
+    <p>Coming Soon...</p><br>
   </div>
   </main>
 </template>

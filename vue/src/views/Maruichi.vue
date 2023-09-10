@@ -14,7 +14,7 @@
                 <div style="width: 2000px;">
                     <p class="store-name">ＭＡＲＵ壱</p>
                     <p class="store-description">湖南のそば粉を用いた手打ちのおそば屋さん</p>
-                    <br>
+                    <p>住所：〒963-1521 福島県郡山市湖南町中野向町２７７９　<a href="https://maps.app.goo.gl/yngXh75Fs9BCKdaR6">GoogleMap</a></p>
                     <br>
                     <br>
                     <v-btn class="rounded-button">和食</v-btn>
